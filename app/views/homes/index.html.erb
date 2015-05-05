@@ -1,0 +1,16 @@
+<h3>Streets!!</h3>
+
+
+<table>
+
+  <% @homes.each do |home| %>
+    <tr>
+      <td>
+        <%= home.street %>
+        <%= home.city %>
+        <%= home.price %>
+      </td>
+    </tr>
+  <% end %>
+
+</table>
